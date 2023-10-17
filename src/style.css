@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+.left-sidebar {
+  background-color: #03002e;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dashboard {
+  color: white;
+  font-size: 22px;
+  margin: 18px 0 0 35px;
+}
+
+.fa-angle-down{
+  margin-left: 20px;
+}
+
+.side-navbar {
+  list-style: none;
+  color: white;
+  margin: 60px 0 0 35px;
+  position: absolute;
+}
+
+.side-navbar li {
+  padding: 12px 0;
+}
+
+.side-navbar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.anchor {
+  width: 180px;
+  display: inline-block;
+  height: 10px;
+}
+
+.fa-display,
+.fa-box-open,
+.fa-address-card,
+.fa-money-check-dollar,
+.fa-percent,
+.fa-circle-question {
+  color: white;
+  margin-right: 12px;
+}
+
+.profile {
+  display: inline-block;
+  position: absolute;
+  height: 40px;
+  width: 180px;
+  margin-top: 550px;
+  margin-left: 35px;
+  background-color: #1167b1;
+  border-radius: 5px;
+
+}
+.profile img {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  margin-top: 3px;
+}
+.name {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 8px;
+  position: absolute;
+}
+.designation {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+  margin-left: 8px;
+  position: absolute;
+}
+
+.main-container {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+}
+
+.right-sidebar {
+  background-color: #d3d3d3;
+  width: 80%;
+}
+
+.nav-container {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  justify-content: space-between;
+}
+
+.h2 {
+  margin: 20px 0 0 60px;
+}
+
+.search-div {
+  position: relative;
+}
+
+.search {
+  height: 28px;
+  width: 168px;
+  margin: 10px 50px 0 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.search::placeholder {
+  padding: 28px;
+}
+
+.lens {
+  font-size: 15px;
+  position: absolute;
+  top: 16px;
+  left: 7px;
+  color: gray;
+}
+
+.dashboard-tiles {
+  height: 100px;
+  width: 180px;
+  background-color: white;
+  margin: 35px 0 0 0;
+  border-radius: 3px;
+  position: relative;
+}
+
+.tiles-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  margin: 20px 0 0 10px;
+}
+
+.description {
+  height: 70px;
+  width: 100px;
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.earning,
+.dollar,
+.span-tag,
+.span-tag-red,
+.month {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.earning {
+  font-size: 10px;
+  color: gray;
+  margin: 17px 0 0 12px;
+}
+
+.dollar {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0 0 0 12px;
+}
+
+.span-tag,
+.span-tag-red,
+.month {
+  font-size: 8px;
+  margin: 0 0 0 12px;
+}
+
+.span-tag {
+  color: green;
+}
+
+.span-tag-red {
+  color: red;
+}
+
+.bar-charts{
+  height: 280px;
+  width: 550px;
+  background-color: white;
+  margin-left: 37px;
+  margin-top: 20px;
+  /* padding: 25px; */
+  border-radius: 5px;
+  overflow: hidden;
+  padding-bottom: 45px;
+  padding-left: 20px;
+  position: relative;
+  display: inline-block;
+  padding-right: 21px;
+}
+.chart-label{
+  display: inline-block;
+  margin-left: 8px;
+  padding: 10px;
+}
+.chartview{
+  height: 270px;
+  width: 600px;
+  
+}
+.p1{
+  font-size: 13px;
+  font-weight: bold;
+}
+.p2{
+  font-size: 8px;
+  color: gray;
+  font-weight: bold;
+}
+.quarter{
+  display: inline-block;
+  margin-left: 350px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 18px;
+  color: gray;
+  cursor: pointer;
+}
+.circle-chart{
+  height: 325px;
+  width: 320px;
+  display: inline-block;
+  background-color: white;
+  margin-left: 45px;
+  position: relative;
+  border-radius: 5px;
+}
+.cicle-description{
+  display: inline-block;
+  height: 25px;
+  width: auto;
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.cp1{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cp2{
+  font-size: 8px;
+  font-weight: bold;
+  color: gray;
+}
+.bottom-bar{
+  height: 130px;
+  width: 954px;
+  background-color: white;
+  margin-left: 37px;
+  margin-top: 2px;
+  position: relative;
+  border-radius: 5px;
+}
+.product-sell{
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.search-bottom{
+  display: inline-block;
+  margin-left: 460px;
+}
+.search-box{
+  display: inline-block;
+  height: 20px;
+  width: 140px;
+  background: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.fa-magnifying-glass{
+  font-size: 13px;
+  color: gray;
+}
+#dropdown{
+  margin-left: 50px;
+  background: none;
+  border: none;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 12px;
+}
+.detailed{
+  position: relative;
+  height: 25px;
+  display: inline-block;
+  width: 930px;
+  border-radius: 5px;
+
+}
+.detail-pTag{
+  display: inline-block;
+  margin-left: 11px;
+  font-weight: bold;
+  color: gray;
+  font-size: 10px;
+}
+.product-detail{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20px;
+  width: 380px;
+  margin-left: 422px;
+  margin-top: 0;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+}
+.details-des{
+  position: relative;
+  border-radius: 5px;
+}
+.flower1{
+  height: 45px;
+  width: 65px;
+  border-radius: 5px;
+}
+.d3{
+  display: inline-block;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.flower-p{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 5px;
+
+}
+.flower-des{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 340px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 450px;
+  
+}
+.flower-des p{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+}
+.dollar-1{
+  margin-left: 65px;
+}
+.dollar-2{
+  margin-left: 100px;
+}
