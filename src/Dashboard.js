@@ -133,6 +133,7 @@ function Dashboard() {
             </div>
           </div>
           {/* Chart.js */}
+          <div className="chart-view">
           <div className="bar-charts">
             <div className="chart-label">
               <p className="p1">Overview</p>
@@ -153,6 +154,7 @@ function Dashboard() {
               <p className="cp2">Customers that Buy Products</p>
             </div>
             <CircleChart />
+          </div>
           </div>
           <div className="bottom-bar">
             <div>

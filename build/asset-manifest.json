@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.17cbb50c.css",
+    "main.js": "/dashboard/static/js/main.dfd87d92.js",
+    "static/media/flowers-19830_1280.jpg": "/dashboard/static/media/flowers-19830_1280.1ddebab5dc5af102fc48.jpg",
+    "static/media/money-bag.png": "/dashboard/static/media/money-bag.a2c97da5b6ee0b6563b3.png",
+    "static/media/profile.png": "/dashboard/static/media/profile.5faf09a7795d28bf5a2b.png",
+    "static/media/wallet.png": "/dashboard/static/media/wallet.8deab440aab2c2bc2420.png",
+    "static/media/checklist.png": "/dashboard/static/media/checklist.affa90f1d62365b8df1f.png",
+    "index.html": "/dashboard/index.html",
+    "main.17cbb50c.css.map": "/dashboard/static/css/main.17cbb50c.css.map",
+    "main.dfd87d92.js.map": "/dashboard/static/js/main.dfd87d92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17cbb50c.css",
+    "static/js/main.dfd87d92.js"
+  ]
+}
